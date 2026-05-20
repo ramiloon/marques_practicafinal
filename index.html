@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>Repaso de JavaScript</h1>
+</header>
+
+<nav>
+    <a href="#variables">Variables</a>
+    <a href="#operadores">Operadores</a>
+    <a href="#condicionales">Condicionales</a>
+    <a href="#bucles">Bucles</a>
+    <a href="#arrays">Arrays</a>
+    <a href="#funciones">Funciones</a>
+    <a href="#dom">DOM</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#math">Math</a>
+    <a href="#strings">Strings</a>
+    <a href="#fechas">Fechas</a>
+    <a href="#formularios">Formularios</a>
+    <a href="#errores">Errores</a>
+</nav>
+
+<main>
+
+<section id="variables">
+    <h2>Variables y tipos</h2>
+
+    <p>
+        Las variables guardan información.
+    </p>
+
+<pre>
+let nombre = "Ana";
+let edad = 18;
+</pre>
+
+    <p>
+        Se guarda un nombre y una edad.
+    </p>
+</section>
+
+<section id="operadores">
+    <h2>Operadores</h2>
+
+    <p>
+        Sirven para hacer operaciones.
+    </p>
+
+<pre>
+let a = 5;
+let b = 3;
+
+console.log(a + b);
+</pre>
+
+    <p>
+        Se suman dos números.
+    </p>
+</section>
+
+<section id="condicionales">
+    <h2>Condicionales</h2>
+
+    <p>
+        Permiten tomar decisiones.
+    </p>
+
+<pre>
+let nota = 7;
+
+if(nota >= 5){
+    console.log("Aprobado");
+}
+</pre>
+
+    <p>
+        Si la nota es mayor que 5 aparece aprobado.
+    </p>
+</section>
+
+<section id="bucles">
+    <h2>Bucles</h2>
+
+    <p>
+        Repiten código varias veces.
+    </p>
+
+<pre>
+for(let i = 1; i <= 5; i++){
+    console.log(i);
+}
+</pre>
+
+    <p>
+        Muestra números del 1 al 5.
+    </p>
+</section>
+
+<section id="arrays">
+    <h2>Arrays</h2>
+
+    <p>
+        Guardan varios datos.
+    </p>
+
+<pre>
+let frutas = ["manzana", "pera"];
+</pre>
+
+    <p>
+        El array tiene dos frutas.
+    </p>
+</section>
+
+<section id="funciones">
+    <h2>Funciones</h2>
+
+    <p>
+        Sirven para reutilizar código.
+    </p>
+
+<pre>
+function saludar(){
+    console.log("Hola");
+}
+</pre>
+
+    <p>
+        La función muestra un saludo.
+    </p>
+</section>
+
+<section id="dom">
+    <h2>DOM</h2>
+
+    <p>
+        Permite cambiar el HTML con JavaScript.
+    </p>
+
+    <button id="botonDOM">Cambiar texto</button>
+
+    <p id="textoDOM">Texto original</p>
+</section>
+
+<section id="eventos">
+    <h2>Eventos</h2>
+
+    <p>
+        Detectan acciones del usuario.
+    </p>
+
+    <button id="botonEvento">Haz clic</button>
+
+    <p id="mensaje"></p>
+</section>
+
+<section id="math">
+    <h2>Math</h2>
+
+    <p>
+        Hace operaciones matemáticas.
+    </p>
+
+    <button id="random">Número aleatorio</button>
+
+    <p id="numero"></p>
+</section>
+
+<section id="strings">
+    <h2>Strings</h2>
+
+    <p>
+        Son textos.
+    </p>
+
+<pre>
+let texto = "hola";
+
+console.log(texto.toUpperCase());
+</pre>
+
+    <p>
+        Convierte el texto en mayúsculas.
+    </p>
+</section>
+
+<section id="fechas">
+    <h2>Fechas</h2>
+
+    <p>
+        JavaScript trabaja con fechas.
+    </p>
+
+<pre>
+let fecha = new Date();
+</pre>
+
+    <p>
+        Guarda la fecha actual.
+    </p>
+</section>
+
+<section id="formularios">
+    <h2>Formularios</h2>
+
+    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+    <button id="enviar">Enviar</button>
+
+    <p id="resultado"></p>
+</section>
+
+<section id="errores">
+    <h2>Errores típicos</h2>
+
+    <p>
+        Errores comunes:
+    </p>
+
+    <ul>
+        <li>Olvidar ;</li>
+        <li>No cerrar llaves</li>
+        <li>Escribir mal variables</li>
+    </ul>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

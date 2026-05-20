@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+}
+
+nav a{
+    margin: 10px;
+}
+
+section{
+    border: 1px solid rgba(23, 246, 37, 0.539);
+    margin: 20px;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+pre{
+    background-color: rgb(17, 225, 45);
+    padding: 10px;
+} 
